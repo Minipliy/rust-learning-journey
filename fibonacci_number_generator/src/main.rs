@@ -36,7 +36,7 @@ fn main() {
             result = match first_calculation_number.checked_add(second_calculation_number) {
                 Some(val) => val,
                 None => {
-                    println!("This Fibonacci number is to large to calculate for this programm");
+                    println!("This Fibonacci number is to large to be calculatd by this programm");
                     return;
                 }
             };
