@@ -1,8 +1,8 @@
 use std::io;
 
 fn main() {
-    let mut first_calculation_number: i32 = 0;
-    let mut second_calculation_number: i32 = 1;
+    let mut first_calculation_number: i64 = 0;
+    let mut second_calculation_number: i64 = 1;
     let mut result = 0;
     let mut trimmed_fibonacci_number: u64 = 0;
     let mut fibonacci_number = String::new();
